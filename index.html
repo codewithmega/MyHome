@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link href="src/index.css" as="style"> -->
+    <link rel="stylesheet" href="src/index.css">
+    <!-- <title>myhome</title> -->
+  </head>
+  <body>
+    <div id="preloader">
+      <center>
+        <img src="/logo.jpg" width="140" />
+        <img src="/loader2.gif" width="70" />
+        <!-- <div class="spinner"></div> -->
+      </center>
+    </div>
+    <script>
+      window.addEventListener("load", () => {
+        document.body.style.visibility = "visible";
+
+        const preloader = document.getElementById("preloader");
+        if (preloader) {
+          preloader.style.opacity = "0";
+          setTimeout(() => preloader.remove(), 300);
+        }
+         AOS.refreshHard();
+      });
+    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
