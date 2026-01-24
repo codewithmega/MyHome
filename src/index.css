@@ -256,3 +256,9 @@ body {
   background-size: cover;
   background-position: center;
 }
+
+.project-image{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

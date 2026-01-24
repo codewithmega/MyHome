@@ -36,7 +36,7 @@ const Navbar = () => {
           </a>
 
           {/* Desktop Nav */}
-          <nav className="hidden md:block mt-8">
+          <nav className="hidden md:block mt-8 outfit">
             <ul className="flex items-center gap-6 text-sm">
               <li data-aos="fade-up" data-aos-duration="700">
                 <a href="/" className={navLinkClass("/")}>Home</a>
@@ -69,11 +69,11 @@ const Navbar = () => {
           </nav>
 
           {/* Right Side */}
-          <div className="flex items-center gap-4 mt-8">
+          <div className="flex items-center gap-4 mt-8 outfit">
 
             <a
               href="/contact"
-              className="hidden sm:inline-flex rounded-full bg-teal-600 px-5 py-2.5 text-sm font-medium text-white shadow-sm hover:shadow-lg"
+              className="hidden sm:inline-flex bg-teal-600 px-5 py-2.5 text-sm font-medium text-white shadow-sm hover:shadow-md"
               data-aos="fade-right"
               data-aos-duration="700"
             >
