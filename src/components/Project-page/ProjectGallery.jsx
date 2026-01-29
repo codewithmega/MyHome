@@ -9,7 +9,7 @@ import "yet-another-react-lightbox/plugins/thumbnails.css";
 import "yet-another-react-lightbox/plugins/captions.css";
 import Masonry from "react-masonry-css";
 
-export default function ProjectGallery({ gallery }) {
+const ProjectGallery = ({ gallery }) => {
   const [open, setOpen] = useState(false);
   const [index, setIndex] = useState(0);
 
@@ -78,3 +78,6 @@ export default function ProjectGallery({ gallery }) {
     </>
   );
 }
+
+
+export default ProjectGallery;
