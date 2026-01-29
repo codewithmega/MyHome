@@ -262,3 +262,21 @@ body {
   background-size: cover;
   background-position: center;
 }
+.yarl__icon{
+  color: black !important;
+}
+.yarl__thumbnails_container {
+  background-color: #ffffffc9 !important;
+  backdrop-filter: blur(10px) !important;
+
+}
+.yarl__thumbnails_thumbnail {
+  background-color: #ffffff26 !important;
+}
+
+.yarl__slide_title{
+  overflow: visible !important;
+text-overflow: clip !important;
+white-space: normal !important;
+
+}

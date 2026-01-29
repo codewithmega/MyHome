@@ -6,6 +6,7 @@ import "aos/dist/aos.css";
 import { useEffect } from 'react';
 import Projects from './pages/Projects';
 import Project from './pages/Project';
+import Contact from './pages/Contact';
 
 
 
@@ -36,6 +37,7 @@ export function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/projects/:slug" element={<Project />} />
         <Route path="*" element={<h1>404: Not Found</h1>} />
