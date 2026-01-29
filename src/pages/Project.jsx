@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Navbar from "../components/Home-page/Navbar";
 import Footer from "../components/Home-page/Footer";
 import { useParams } from "react-router-dom";
-import projects from "../components/Project-Page/project-data";
+import projects from "../components/Project-Page/project-data.js";
 import ProjectGallery from "../components/Project-Page/ProjectGallery";
 import { ChevronRight, MoveLeft } from "lucide-react";
 
