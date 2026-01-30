@@ -3,7 +3,7 @@ import Navbar from "../components/Home-page/Navbar";
 import Footer from "../components/Home-page/Footer";
 import { useParams } from "react-router-dom";
 import projects from "../components/Project-page/projectData.js";
-import ProjectGallery from "../components/Project-Page/ProjectGallery";
+import ProjectGallery from "../components/Project-page/ProjectGallery.jsx";
 import { ChevronRight, MoveLeft } from "lucide-react";
 
 const Project = () => {
