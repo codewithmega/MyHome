@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import ProjectCard from './ProjectCard'
-import projects from './project-data.js'
+import projects from './projectData.js'
 
 const Hero = () => {
   return (
